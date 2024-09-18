@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Information Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: hsl(42, 56%, 4%);
+        }
+        header, section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #856a6e;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(11, 13, 159, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #080909;
+        }
+        th {
+            background-color: #ad2559;
+        }
+        ul {
+            list-style-type: circle;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        iframe {
+            width: 30%;
+            height: 315px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <header>
+        <b>
+        <h1>Animal Information</h1>
+    </b>
+        <i>
+        <p>Welcome to the Animal Information Page. Here you can learn about different animals, their characteristics, and watch videos about them.</p>
+    </i>
+    </header>
+</center>
+
+    <section id="animal-info">
+        <h2>Animal Characteristics</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th><b>Animal</b</th>
+                    <th><b>Habitat</b></th>
+                    <th><b>Diet</b></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lion</td>
+                    <td>Savannah</td>
+                    <td>Carnivore</td>
+                </tr>
+                <tr>
+                    <td>Elephant</td>
+                    <td>Grassland</td>
+                    <td>Herbivore</td>
+                </tr>
+                <tr>
+                    <td>Penguin</td>
+                    <td>Antarctica</td>
+                    <td>Carnivore</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="animal-list">
+        <h2>Animals</h2>
+        <p>Here is a list of animals with some interesting facts:</p>
+        <ul>
+            
+            <li><strong>Lions</strong>: Known as the king of the jungle, lions are social animals that live in groups called prides.</li>
+            <li><strong>Elephants</strong>: The largest land animals on Earth, elephants have remarkable memories and are known for their strong social bonds.</li>
+            <li><strong>Penguins</strong>: Flightless birds that are well adapted to life in the water, penguins primarily feed on fish and krill.</li>
+        
+        </ul>
+    </section>
+
+    <section id="videos">
+        <h2>Animal Videos</h2>
+        <p>Watch these videos to learn more about these fascinating animals:</p>
+        <iframe src="batch1/lion.mp4" title="Lion Documentary"></iframe>
+        <iframe src="batch2/elephant.mp4" title="Elephant Facts"></iframe>
+        <iframe src="batch3/penguin.mp4" title="Penguin Behaviour"></iframe>
+    </section>
+
+</body>
+</html>
